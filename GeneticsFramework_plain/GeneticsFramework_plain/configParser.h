@@ -9,7 +9,10 @@
 class configParser
 {
 private:
-	// Fasta file to parse
+	/* Fasta file to parse
+	* how many characters per line should be another config
+	*
+	*/
 	int					m_iFastaLength; // Length of ADN string
 	std::string			m_sFastaFile; // name of fasta file
 	bool				m_bIsMemFit; // does it fit in Memory?

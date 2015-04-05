@@ -16,6 +16,9 @@
     <Filter Include="Common">
       <UniqueIdentifier>{c450715b-a35c-4169-be04-f28faa0516a2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="FastaParser">
+      <UniqueIdentifier>{0ced0274-98b3-4c6a-8ac6-807c0cd6f316}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GeneticsFramework.cpp">
@@ -29,6 +32,9 @@
     </ClCompile>
     <ClCompile Include="ini.c">
       <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="FastaParser.cpp">
+      <Filter>FastaParser</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -46,6 +52,9 @@
     </ClInclude>
     <ClInclude Include="ini.h">
       <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FastaParser.h">
+      <Filter>FastaParser</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

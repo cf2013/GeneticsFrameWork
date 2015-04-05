@@ -12,6 +12,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="configParser.cpp" />
+    <ClCompile Include="FastaParser.cpp" />
     <ClCompile Include="GeneticsFramework.cpp" />
     <ClCompile Include="ini.c" />
     <ClCompile Include="INIReader.cpp" />
@@ -20,6 +21,7 @@
     <ClInclude Include="Common\Common.h" />
     <ClInclude Include="Common\DataTypes.h" />
     <ClInclude Include="configParser.h" />
+    <ClInclude Include="FastaParser.h" />
     <ClInclude Include="ini.h" />
     <ClInclude Include="INIReader.h" />
   </ItemGroup>
@@ -65,8 +67,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>
-      </AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)Common</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
